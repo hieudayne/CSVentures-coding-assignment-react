@@ -1,0 +1,695 @@
+<i> [1m[32m[webpack-dev-server] [HPM] Proxy created: /api  -> http://localhost:3333[39m[22m
+<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
+<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://127.0.0.1:4200/[39m[39m[22m
+<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.71 MiB (2.18 MiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32mvendor.js[39m[22m 1.66 MiB [1m[32mmain.css[39m[22m 108 bytes [1m[32mmain.js[39m[22m 10.9 KiB 4 auxiliary assets
+Entrypoint [1mstyles[39m[22m 219 KiB (277 KiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32mstyles.css[39m[22m 120 bytes [1m[32mstyles.js[39m[22m 172 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 9.16 KiB (javascript) 70 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e777c2643385fedf)
+Entrypoint [1mmain[39m[22m = 6 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 8.81 KiB (javascript) 40 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/tickets/tickets.tsx[39m[22m [1m[32m2:0-42[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './tickets.module.css' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\tickets'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (cc5d989780b5f892)
+Entrypoint [1mmain[39m[22m = 6 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 8.81 KiB (javascript) 40 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/tickets/tickets.tsx[39m[22m [1m[32m2:0-42[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './tickets.module.css' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\tickets'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (ae0aed08c257191e)
+Entrypoint [1mmain[39m[22m = 6 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 7.93 KiB (javascript) 40 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx[39m[22m [1m[32m129:0-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './tickets/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './tickets/tickets' or its corresponding type declarations.
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m styles [36mfrom[39m [32m'./app.module.css'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mTickets[39m [36mfrom[39m [32m'./tickets/tickets'[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mconst[39m [33mApp[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState([] [36mas[39m [33mTicket[39m[])[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (eb3ae2547707bb58)
+Entrypoint [1mmain[39m[22m = 6 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 7.93 KiB (javascript) 40 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx[39m[22m [1m[32m129:0-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './tickets/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './tickets/tickets' or its corresponding type declarations.
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m styles [36mfrom[39m [32m'./app.module.css'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mTickets[39m [36mfrom[39m [32m'./tickets/tickets'[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mconst[39m [33mApp[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState([] [36mas[39m [33mTicket[39m[])[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e565c56d9a7b5b2d)
+Entrypoint [1mmain[39m[22m = 6 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 7.93 KiB (javascript) 40 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx[39m[22m [1m[32m129:0-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './tickets/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './tickets/tickets' or its corresponding type declarations.
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m styles [36mfrom[39m [32m'./app.module.css'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mTickets[39m [36mfrom[39m [32m'./tickets/tickets'[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mconst[39m [33mApp[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState([] [36mas[39m [33mTicket[39m[])[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (15afc27e9d3bb65a)
+Entrypoint [1mmain[39m[22m = 6 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 7.93 KiB (javascript) 40 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx[39m[22m [1m[32m129:0-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './tickets/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './tickets/tickets' or its corresponding type declarations.
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m styles [36mfrom[39m [32m'./app.module.css'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mTickets[39m [36mfrom[39m [32m'./tickets/tickets'[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mconst[39m [33mApp[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState([] [36mas[39m [33mTicket[39m[])[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (39dc05cbd6d819eb)
+Entrypoint [1mmain[39m[22m = 6 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 7.93 KiB (javascript) 40 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx[39m[22m [1m[32m129:0-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './tickets/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/app.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './tickets/tickets' or its corresponding type declarations.
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m styles [36mfrom[39m [32m'./app.module.css'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mTickets[39m [36mfrom[39m [32m'./tickets/tickets'[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mconst[39m [33mApp[39m [33m=[39m () [33m=>[39m {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState([] [36mas[39m [33mTicket[39m[])[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f09d9275ddd72823)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 29.6 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/components/CreateTicketModal.tsx[39m[22m [1m[32m127:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\components'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/components/CreateTicketModal.tsx[39m[22m [1m[32m128:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\components'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m128:0-110[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m129:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/users' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m130:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../utils/toast' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m131:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx[39m[22m [1m[32m128:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx[39m[22m [1m[32m130:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/components/CreateTicketModal.tsx:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { useState } [36mfrom[39m [32m"react"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { createTicket } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36minterface[39m [33mProps[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/components/CreateTicketModal.tsx:[32m[1m3:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { useState } [36mfrom[39m [32m"react"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { createTicket } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36minterface[39m [33mProps[39m {[0m
+  [0m [90m 6 |[39m   isOpen[33m:[39m boolean[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m9:8[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m  7 |[39m   markTicketComplete[33m,[39m[0m
+  [0m [90m  8 |[39m   markTicketIncomplete[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m10:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/users' or its corresponding type declarations.
+  [0m [90m  8 |[39m   markTicketIncomplete[33m,[39m[0m
+  [0m [90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m11:23[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../utils/toast' or its corresponding type declarations.
+  [0m [90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketDetail[39m() {[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m12:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketDetail[39m() {[0m
+  [0m [90m 15 |[39m   [36mconst[39m { id } [33m=[39m useParams()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx:[32m[1m4:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTicket[39m } [36mfrom[39m [32m"@acme/shared-models"[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m [33mTicketCard[39m [36mfrom[39m [32m"../components/TicketCard"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { fetchTickets } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m [33mCreateTicketModal[39m [36mfrom[39m [32m"../components/CreateTicketModal"[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 7 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { fetchTickets } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m [33mCreateTicketModal[39m [36mfrom[39m [32m"../components/CreateTicketModal"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketList[39m() {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState[33m<[39m[33mTicket[39m[][33m>[39m([])[33m;[39m[0m
+
+webpack compiled with [1m[31m16 errors[39m[22m (61bc9324470fafbe)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 29.6 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/components/CreateTicketModal.tsx[39m[22m [1m[32m127:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\components'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/components/CreateTicketModal.tsx[39m[22m [1m[32m128:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\components'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m128:0-110[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m129:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/users' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m130:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../utils/toast' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m131:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx[39m[22m [1m[32m128:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx[39m[22m [1m[32m130:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/components/CreateTicketModal.tsx:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { useState } [36mfrom[39m [32m"react"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { createTicket } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36minterface[39m [33mProps[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/components/CreateTicketModal.tsx:[32m[1m3:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { useState } [36mfrom[39m [32m"react"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { createTicket } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36minterface[39m [33mProps[39m {[0m
+  [0m [90m 6 |[39m   isOpen[33m:[39m boolean[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m9:8[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m  7 |[39m   markTicketComplete[33m,[39m[0m
+  [0m [90m  8 |[39m   markTicketIncomplete[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m10:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/users' or its corresponding type declarations.
+  [0m [90m  8 |[39m   markTicketIncomplete[33m,[39m[0m
+  [0m [90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m11:23[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../utils/toast' or its corresponding type declarations.
+  [0m [90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketDetail[39m() {[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m12:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketDetail[39m() {[0m
+  [0m [90m 15 |[39m   [36mconst[39m { id } [33m=[39m useParams()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx:[32m[1m4:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTicket[39m } [36mfrom[39m [32m"@acme/shared-models"[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m [33mTicketCard[39m [36mfrom[39m [32m"../components/TicketCard"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { fetchTickets } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m [33mCreateTicketModal[39m [36mfrom[39m [32m"../components/CreateTicketModal"[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 7 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { fetchTickets } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m [33mCreateTicketModal[39m [36mfrom[39m [32m"../components/CreateTicketModal"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketList[39m() {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState[33m<[39m[33mTicket[39m[][33m>[39m([])[33m;[39m[0m
+
+webpack compiled with [1m[31m16 errors[39m[22m (014f0e2570ec7764)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 39.1 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m128:0-110[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m129:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/users' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m130:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../utils/toast' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx[39m[22m [1m[32m131:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx[39m[22m [1m[32m128:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx[39m[22m [1m[32m130:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m9:8[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m  7 |[39m   markTicketComplete[33m,[39m[0m
+  [0m [90m  8 |[39m   markTicketIncomplete[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m10:28[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/users' or its corresponding type declarations.
+  [0m [90m  8 |[39m   markTicketIncomplete[33m,[39m[0m
+  [0m [90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m11:23[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../utils/toast' or its corresponding type declarations.
+  [0m [90m  9 |[39m } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketDetail[39m() {[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m12:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 10 |[39m [36mimport[39m { fetchUsers } [36mfrom[39m [32m"../../api/users"[39m[33m;[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"../../../utils/toast"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m[0m
+  [0m [90m 14 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketDetail[39m() {[0m
+  [0m [90m 15 |[39m   [36mconst[39m { id } [33m=[39m useParams()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx:[32m[1m4:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTicket[39m } [36mfrom[39m [32m"@acme/shared-models"[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m [33mTicketCard[39m [36mfrom[39m [32m"../components/TicketCard"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { fetchTickets } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m [33mCreateTicketModal[39m [36mfrom[39m [32m"../components/CreateTicketModal"[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 7 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { fetchTickets } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m [33mCreateTicketModal[39m [36mfrom[39m [32m"../components/CreateTicketModal"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketList[39m() {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState[33m<[39m[33mTicket[39m[][33m>[39m([])[33m;[39m[0m
+
+webpack compiled with [1m[31m12 errors[39m[22m (25e3cf928fb2bb5f)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 43.7 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx[39m[22m [1m[32m128:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../api/tickets' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx[39m[22m [1m[32m130:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../../../components/Spinner' in 'C:\AssignmentReact\coding-assignment-react\client\src\app\pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m50:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'assignUserToTicket'.
+  [0m [90m 48 |[39m     setLoading([36mtrue[39m)[33m;[39m[0m
+  [0m [90m 49 |[39m     [36mtry[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 50 |[39m       [36mawait[39m assignUserToTicket(ticket[33m.[39mid[33m,[39m userId)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 51 |[39m       [36mconst[39m updated [33m=[39m [36mawait[39m fetchTicket(ticket[33m.[39mid)[33m;[39m[0m
+  [0m [90m 52 |[39m       setTicket(updated)[33m;[39m[0m
+  [0m [90m 53 |[39m       toast([32m"🙋 User assigned successfully"[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m62:24[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Spinner'.
+  [0m [90m 60 |[39m   }[33m;[39m[0m
+  [0m [90m 61 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m   [36mif[39m ([33m![39mticket) [36mreturn[39m [33m<[39m[33mSpinner[39m [33m/[39m[33m>[39m[33m;[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m[0m
+  [0m [90m 64 |[39m   [36mreturn[39m ([0m
+  [0m [90m 65 |[39m     [33m<[39m[33mdiv[39m className[33m=[39m[32m"max-w-xl mx-auto bg-white p-6 rounded-lg shadow border border-gray-200"[39m[33m>[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m115:12[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Spinner'.
+  [0m [90m 113 |[39m       [33m>[39m[0m
+  [0m [90m 114 |[39m         {loading [33m?[39m ([0m
+  [0m[31m[1m>[22m[39m[90m 115 |[39m           [33m<[39m[33mSpinner[39m size[33m=[39m[32m"sm"[39m inline [33m/[39m[33m>[39m[0m
+  [0m [90m     |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 116 |[39m         ) [33m:[39m ticket[33m.[39mcompleted [33m?[39m ([0m
+  [0m [90m 117 |[39m           [32m"Mark as Incomplete"[39m[0m
+  [0m [90m 118 |[39m         ) [33m:[39m ([0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx:[32m[1m4:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../api/tickets' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTicket[39m } [36mfrom[39m [32m"@acme/shared-models"[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m [33mTicketCard[39m [36mfrom[39m [32m"../components/TicketCard"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { fetchTickets } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m [33mCreateTicketModal[39m [36mfrom[39m [32m"../components/CreateTicketModal"[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m 7 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketList.tsx:[32m[1m6:21[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '../../../components/Spinner' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { fetchTickets } [36mfrom[39m [32m"../../api/tickets"[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m [33mCreateTicketModal[39m [36mfrom[39m [32m"../components/CreateTicketModal"[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mSpinner[39m [36mfrom[39m [32m"../../../components/Spinner"[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mTicketList[39m() {[0m
+  [0m [90m 9 |[39m   [36mconst[39m [tickets[33m,[39m setTickets] [33m=[39m useState[33m<[39m[33mTicket[39m[][33m>[39m([])[33m;[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (7cba090453b04944)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m, [1m[32m0.e777c2643385fedf.hot-update.js[39m[22m (main) 43.7 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.e777c2643385fedf.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.e777c2643385fedf.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m50:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'assignUserToTicket'.
+  [0m [90m 48 |[39m     setLoading([36mtrue[39m)[33m;[39m[0m
+  [0m [90m 49 |[39m     [36mtry[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 50 |[39m       [36mawait[39m assignUserToTicket(ticket[33m.[39mid[33m,[39m userId)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 51 |[39m       [36mconst[39m updated [33m=[39m [36mawait[39m fetchTicket(ticket[33m.[39mid)[33m;[39m[0m
+  [0m [90m 52 |[39m       setTicket(updated)[33m;[39m[0m
+  [0m [90m 53 |[39m       toast([32m"🙋 User assigned successfully"[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m62:24[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Spinner'.
+  [0m [90m 60 |[39m   }[33m;[39m[0m
+  [0m [90m 61 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m   [36mif[39m ([33m![39mticket) [36mreturn[39m [33m<[39m[33mSpinner[39m [33m/[39m[33m>[39m[33m;[39m[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m[0m
+  [0m [90m 64 |[39m   [36mreturn[39m ([0m
+  [0m [90m 65 |[39m     [33m<[39m[33mdiv[39m className[33m=[39m[32m"max-w-xl mx-auto bg-white p-6 rounded-lg shadow border border-gray-200"[39m[33m>[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./client/src/app/pages/TicketDetail.tsx:[32m[1m115:12[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Spinner'.
+  [0m [90m 113 |[39m       [33m>[39m[0m
+  [0m [90m 114 |[39m         {loading [33m?[39m ([0m
+  [0m[31m[1m>[22m[39m[90m 115 |[39m           [33m<[39m[33mSpinner[39m size[33m=[39m[32m"sm"[39m inline [33m/[39m[33m>[39m[0m
+  [0m [90m     |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 116 |[39m         ) [33m:[39m ticket[33m.[39mcompleted [33m?[39m ([0m
+  [0m [90m 117 |[39m           [32m"Mark as Incomplete"[39m[0m
+  [0m [90m 118 |[39m         ) [33m:[39m ([0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (988eb0c0af89c6e0)
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.79 MiB (2.22 MiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.988eb0c0af89c6e0.hot-update.js[39m[22m 351 bytes [1m[32mvendor.js[39m[22m 1.65 MiB [1m[32mmain.js[39m[22m 45.2 KiB [1m[32m0.988eb0c0af89c6e0.hot-update.js[39m[22m 44.9 KiB 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m 220 KiB (278 KiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.988eb0c0af89c6e0.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 120 bytes [1m[32mstyles.js[39m[22m 172 KiB [1m[32m2.988eb0c0af89c6e0.hot-update.js[39m[22m 521 bytes 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m, [1m[32m0.988eb0c0af89c6e0.hot-update.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.988eb0c0af89c6e0.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.988eb0c0af89c6e0.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (93d8c4040c44a3e5)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m 4 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m (runtime) 31.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m (styles) 5.53 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.49 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client\index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false' in 'C:\AssignmentReact\coding-assignment-react'[39m[22m
+
+[1m[31mERROR[39m[22m in [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack\hot\dev-server.js' in 'C:\AssignmentReact\coding-assignment-react'[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d083c753226ff8c9)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mmain.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m (styles) 140 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m, [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m (vendor) (id hint: vendor) 1.62 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m9:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/log.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m10:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './utils/stripAnsi.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m12:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './socket.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m15:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './utils/sendMessage.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m16:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './utils/reloadApp.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack\hot\dev-server.js' in 'C:\AssignmentReact\coding-assignment-react'[39m[22m
+
+webpack compiled with [1m[31m6 errors[39m[22m (0132920ea2227184)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mmain.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m (styles) 147 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m, [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m (vendor) (id hint: vendor) 1.62 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m9:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/log.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/utils/reloadApp.js[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/emitter.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client\utils'[39m[22m
+
+[1m[31mERROR[39m[22m in [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack\hot\dev-server.js' in 'C:\AssignmentReact\coding-assignment-react'[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (03f5072bde6b108c)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mmain.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m (styles) 147 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m, [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m (vendor) (id hint: vendor) 1.62 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m9:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/log.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/utils/reloadApp.js[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/emitter.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client\utils'[39m[22m
+
+[1m[31mERROR[39m[22m in [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack\hot\dev-server.js' in 'C:\AssignmentReact\coding-assignment-react'[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (f54a7a967f6ee56c)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mmain.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m (styles) 147 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m, [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m (vendor) (id hint: vendor) 1.62 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m9:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/log.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/utils/reloadApp.js[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/emitter.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client\utils'[39m[22m
+
+[1m[31mERROR[39m[22m in [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack\hot\dev-server.js' in 'C:\AssignmentReact\coding-assignment-react'[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (50589dbacf63d8f8)
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mvendor.js[39m[22m [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mmain.js[39m[22m 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m (styles) 147 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m, [1m[32m3.93d8c4040c44a3e5.hot-update.js[39m[22m (vendor) (id hint: vendor) 1.62 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4200&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=false[39m[22m [1m[32m9:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/log.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./node_modules/webpack-dev-server/client/utils/reloadApp.js[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'webpack/hot/emitter.js' in 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack-dev-server\client\utils'[39m[22m
+
+[1m[31mERROR[39m[22m in [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'C:\AssignmentReact\coding-assignment-react\node_modules\webpack\hot\dev-server.js' in 'C:\AssignmentReact\coding-assignment-react'[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (90a6cf15021a5960)
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.74 MiB (2.19 MiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m 351 bytes [1m[32mvendor.js[39m[22m 1.65 MiB [1m[32mmain.js[39m[22m 45.2 KiB 4 auxiliary assets
+Entrypoint [1mstyles[39m[22m 220 KiB (278 KiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 120 bytes [1m[32mstyles.js[39m[22m 172 KiB [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m 521 bytes 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.93d8c4040c44a3e5.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.93d8c4040c44a3e5.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a5dee00bcef60857)
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.74 MiB (2.19 MiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.a5dee00bcef60857.hot-update.js[39m[22m 351 bytes [1m[32mvendor.js[39m[22m 1.65 MiB [1m[32mmain.js[39m[22m 45.2 KiB 4 auxiliary assets
+Entrypoint [1mstyles[39m[22m 220 KiB (278 KiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.a5dee00bcef60857.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 120 bytes [1m[32mstyles.js[39m[22m 172 KiB [1m[32m2.a5dee00bcef60857.hot-update.js[39m[22m 521 bytes 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.a5dee00bcef60857.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.a5dee00bcef60857.hot-update.js[39m[22m (styles) 166 KiB (javascript) 81 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (37f81c8368c7f668)
+
+[1m[33mwarn[39m[22m - The `content` option in your Tailwind CSS configuration is missing or empty.
+[1m[33mwarn[39m[22m - Configure your content sources or your generated CSS will be missing styles.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/content-configuration
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.74 MiB (2.19 MiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.37f81c8368c7f668.hot-update.js[39m[22m 351 bytes [1m[32mvendor.js[39m[22m 1.65 MiB [1m[32mmain.js[39m[22m 45.2 KiB 4 auxiliary assets
+Entrypoint [1mstyles[39m[22m 230 KiB (282 KiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.37f81c8368c7f668.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 10.3 KiB [1m[32mstyles.js[39m[22m 172 KiB [1m[32m2.37f81c8368c7f668.hot-update.js[39m[22m 521 bytes 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.js[39m[22m (main) 43.8 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.37f81c8368c7f668.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.37f81c8368c7f668.hot-update.js[39m[22m (styles) 166 KiB (javascript) 10.2 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 1.64 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4d89d9c9fa2a82e6)
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.81 MiB (2.24 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m 230 KiB (282 KiB) = [1m[32mruntime.js[39m[22m 47.6 KiB [1m[32m1.4d89d9c9fa2a82e6.hot-update.js[39m[22m 351 bytes [1m[32mstyles.css[39m[22m 10.3 KiB [1m[32mstyles.js[39m[22m 172 KiB [1m[32m2.4d89d9c9fa2a82e6.hot-update.js[39m[22m 521 bytes 5 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32m0.4d89d9c9fa2a82e6.hot-update.js[39m[22m (main) 44.2 KiB (javascript) 10.2 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32m1.4d89d9c9fa2a82e6.hot-update.js[39m[22m (runtime) 31.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m, [1m[32m2.4d89d9c9fa2a82e6.hot-update.js[39m[22m (styles) 166 KiB (javascript) 10.2 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.js[39m[22m, [1m[32m3.4d89d9c9fa2a82e6.hot-update.js[39m[22m (vendor) (id hint: vendor) 1.65 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (646b6de2906a29ed)
+<i> [1m[32m[webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...[39m[22m
