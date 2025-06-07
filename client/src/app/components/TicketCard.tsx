@@ -5,6 +5,7 @@ export default function TicketCard({ ticket }: { ticket: Ticket }) {
   return (
     <Link
       to={`/${ticket.id}`}
+      data-testid="ticket-item"
       className="block bg-white p-4 rounded-lg shadow hover:shadow-md transition border border-gray-200"
     >
       <div className="flex justify-between items-center mb-2">

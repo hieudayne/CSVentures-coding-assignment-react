@@ -67,11 +67,11 @@ export default function TicketDetail() {
     <div className="max-w-xl mx-auto bg-white p-6 rounded-lg shadow border border-gray-200">
       <button
         onClick={() => navigate(-1)}
-        className="text-blue-600 hover:underline mb-4 inline-block"
+        className="mb-4 inline-flex items-center gap-1.5 px-3 py-1.5 bg-gray-100 text-gray-700 rounded-md shadow-sm hover:bg-gray-200 active:scale-[.98] transition text-sm font-medium"
       >
-        ← Back
+        <span className="text-base">←</span>
+        <span>Back</span>
       </button>
-
       <h2 className="text-2xl font-bold text-gray-800 mb-2">
         Ticket #{ticket.id}
       </h2>

@@ -1,14 +1,12 @@
 type SpinnerProps = {
   size?: "sm" | "md" | "lg";
   inline?: boolean;
-  color?: string;
   className?: string;
 };
 
 export default function Spinner({
   size = "md",
   inline = false,
-  color,
   className = "",
 }: SpinnerProps) {
   const sizeClasses = {
@@ -17,11 +15,12 @@ export default function Spinner({
     lg: "h-8 w-8 border-4",
   };
 
-  const borderColor = color ?? (inline ? "white" : "blue-600");
-
   const spinner = (
     <div
-      className={`${sizeClasses[size]} border-${borderColor} border-t-transparent rounded-full animate-spin ${className}`}
+      role="status"
+      className={`${sizeClasses[size]} ${
+        inline ? "border-white" : "border-blue-600"
+      } border-t-transparent rounded-full animate-spin ${className}`}
     />
   );
 
