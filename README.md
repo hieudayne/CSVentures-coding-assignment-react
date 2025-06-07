@@ -1,6 +1,6 @@
 # Coding Assignment – Ticket Managing App (React)
 
-This is a coding assignment for a simple ticket management app using React and TypeScript. The goal is to demonstrate practical frontend development skills within a limited time.
+This is a coding assignment for a simple ticket management app using React and TypeScript.
 
 ---
 
